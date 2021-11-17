@@ -1,17 +1,16 @@
-fx_version 'adamant'
-games { 'gta5' }
+fx_version 'cerulean'
+game 'gta5'
 
-server_scripts {
-    "server/main.lua",
-}
-client_scripts {
-    "client/main.lua",
-}
-ui_page {
-    'nui/ui.html',
-}
+description 'QB-Notepad'
+version '1.0.0'
+
+server_script 'server/main.lua'
+client_script 'client/main.lua'
+
+ui_page 'html/index.html'
+
 files {
-    'nui/ui.html',
-    'nui/css/main.css',
-    'nui/js/app.js',
+    'html/index.html',
+    'html/css/style.css',
+    'html/js/script.js',
 }
